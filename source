@@ -32,6 +32,13 @@ Tab2:AddButton({
   	end    
 })
 
+local Tab3= Window:MakeTab({
+	Name = "Built In Hacks",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
 
 OrionLib:MakeNotification({
 	Name = "Metascripter",
@@ -39,6 +46,21 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
+
+Tab3:AddSlider({
+	Name = "Walk Speed",
+	Min = 16,
+	Max = 1000,
+	Default = 16,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WS",
+	Callback = function(Value)
+		game.Players.Character.Humanoid.Walkspeed=Value
+	end    
+})
+
+
 
 
 
