@@ -40,10 +40,6 @@ Tab2:AddButton({
 })
 
 
-local Section = Tab3:AddSection({
-	Name = "Reboot And Self Destruct"
-})
-
 Tab:AddParagraph("Reboot And Self Destruct","If your Metascripter hub is glitching out, use the reboot button, or if you want to remove Metascripter from your roblox until you execute the script again, press Self Destruct")
 
 Tab3:AddButton({
