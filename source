@@ -60,7 +60,7 @@ Tab3:AddSlider({
 	end    
 })
 
-OrionLib:Init()
+
 
 
 
