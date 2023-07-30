@@ -40,8 +40,6 @@ Tab2:AddButton({
 })
 
 
-Tab3:AddParagraph("Reboot And Self Destruct","If your Metascripter hub is glitching out, use the reboot button, or if you want to remove Metascripter from your roblox until you execute the script again, press Self Destruct")
-
 Tab3:AddButton({
 	Name = "Reboot Metascripter",
 	Callback = function()  
