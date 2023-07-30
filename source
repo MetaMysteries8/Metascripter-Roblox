@@ -7,6 +7,7 @@ local Tab1 = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab1:AddParagraph("Welcome","Press any tab to get started.")
 
 local Tab2= Window:MakeTab({
 	Name = "Scripts",
@@ -15,7 +16,7 @@ local Tab2= Window:MakeTab({
 })
 
 local Tab3= Window:MakeTab({
-	Name = "Scripts",
+	Name = "Reboot",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -42,12 +43,6 @@ Tab3:AddButton({
 	Name = "Reboot Metascripter",
 	Callback = function()  
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaMysteries8/Metascripter-Roblox/main/source'))()
-        OrionLib:MakeNotification({
-            Name = "Metascripter",
-            Content = "Metascripter Rebooted",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
 OrionLib:Destroy()
   	end    
 })
@@ -56,7 +51,7 @@ OrionLib:Destroy()
 
 OrionLib:MakeNotification({
 	Name = "Metascripter",
-	Content = "Welcome To MetaScripter",
+	Content = "Metascripter is now active!",
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
