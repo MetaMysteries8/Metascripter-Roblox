@@ -16,7 +16,7 @@ local Tab2= Window:MakeTab({
 })
 
 local Tab3= Window:MakeTab({
-	Name = "Reboot",
+	Name = "Reboot/Self Destruct",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -39,11 +39,25 @@ Tab2:AddButton({
   	end    
 })
 
+
+local Section = Tab3:AddSection({
+	Name = "Reboot And Self Destruct"
+})
+
+Tab:AddParagraph("Reboot And Self Destruct","If your Metascripter hub is glitching out, use the reboot button, or if you want to remove Metascripter from your roblox until you execute the script again, press Self Destruct")
+
 Tab3:AddButton({
 	Name = "Reboot Metascripter",
 	Callback = function()  
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaMysteries8/Metascripter-Roblox/main/source'))()
 OrionLib:Destroy()
+  	end    
+})
+
+Tab3:AddButton({
+	Name = "Self Destruct",
+	Callback = function()  
+	OrionLib:Destroy()
   	end    
 })
 
