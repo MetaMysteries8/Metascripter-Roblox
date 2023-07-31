@@ -76,12 +76,12 @@ Tab2:AddButton({
 
 
 
-Tab4:AddParagraph("Hey","Is there a script you want to use, but it's not here? Paste the script you want to execute, then press enter and your script will be ran.")
+
 
 Tab:AddTextbox({
 	Name = "Executor",
 	Default = "Paste Script Here",
-	TextDisappear = false,
+	TextDisappear = true,
 	Callback = function(Script)
 		loadstring(Script)
 OrionLib:MakeNotification({
