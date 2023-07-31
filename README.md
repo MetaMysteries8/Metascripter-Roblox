@@ -1,4 +1,5 @@
 # Metascripter-Roblox
+WARNING: The metascripter source file is broken due to a recent patch, the hack panel will be aviable in a game soon...
 A script hub for many different things.
 Credit to:
 Unbeatable for teaching me how to make this.
