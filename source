@@ -74,9 +74,7 @@ Tab2:AddButton({
   	end    
 })
 
-local Section = Tab4:AddSection({
-	Name = "Custom Script Executor"
-})
+
 
 Tab4:AddParagraph("Hey","Is there a script you want to use, but it's not here? Paste the script you want to execute, then press enter and your script will be ran.")
 
