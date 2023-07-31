@@ -56,15 +56,6 @@ Tab3:AddButton({
 })
 
 
-Tab3:AddTextbox({
-	Name = "Give Kick Hammer",
-	Default = "Username",
-	TextDisappear = true,
-	Callback = function(Value)
-	require(2555964157).doom(Value)
-	end	  
-})
-
 
 
 
