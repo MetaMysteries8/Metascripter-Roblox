@@ -55,6 +55,19 @@ Tab3:AddButton({
   	end    
 })
 
+Tab2:AddButton({
+	Name = "Doors - Vynixius",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+   OrionLib:MakeNotification({
+            Name = "Metascripter",
+            Content = "Enjoy this doors script!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+  	end    
+})
+
 
 
 
