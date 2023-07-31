@@ -74,7 +74,7 @@ Tab2:AddButton({
   	end    
 })
 
-Tab4:AddParagraph("How to use","First delete the default text, then paste in your script, then press enter.")
+Tab4:AddParagraph("How to use","First delete the default text, then paste in your script, then press enter. Heads up, the text might glitch if the script is long, but the script should still work normally")
 
 
 
