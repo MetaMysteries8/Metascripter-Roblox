@@ -61,6 +61,13 @@ Tab3:AddButton({
   	end    
 })
 
+Tab3:AddButton({
+	Name = "Limited Time - Beta Tester Badge",
+	Callback = function()  
+	OrionLib:Destroy()
+  	end    
+})
+
 Tab2:AddButton({
 	Name = "Doors - Vynixius",
 	Callback = function()
