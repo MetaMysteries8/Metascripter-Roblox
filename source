@@ -55,7 +55,7 @@ Tab3:AddButton({
   	end    
 })
 
-Tab:AddTextbox({
+Tab3:AddTextbox({
 	Name = "Give Kick Hammer",
 	Default = "Your username",
 	TextDisappear = true,
