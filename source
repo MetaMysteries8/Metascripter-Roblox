@@ -55,6 +55,39 @@ Tab3:AddButton({
   	end    
 })
 
+Tab2:AddButton({
+	Name = "Lick GUI",
+	Callback = function()
+       local kickButton = script.Parent
+local plrNameBox = script.Parent.Parent.playerName
+local reasonBox = script.Parent.Parent.Reasson -- Here, make sure you actually have a TextBox named "Reasson" or fix the typo to "Reason".
+
+
+
+local function get_best_target(target_name)
+	for _, player in pairs(game.Players:GetPlayers()) do
+		if (player.Name:lower():find(target_name) == 1) then
+			print('Best match is: ', player.Name)
+			return player
+		end
+	end		
+end
+
+kickButton.MouseButton1Click:Connect(function()
+	local plr = get_best_target(plrNameBox.Text)
+	if plr then
+		plr:Kick(reasonBox.Text)
+	game.SoundService.menuClick:Play()	
+	end
+end)
+        OrionLib:MakeNotification({
+            Name = "Metascripter",
+            Content = "Kick GUI Enabled",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+  	end    
+})
 
 
 OrionLib:MakeNotification({
@@ -63,6 +96,9 @@ OrionLib:MakeNotification({
 	Image = "rbxassetid://4483345998",
 	Time = 5
 })
+
+
+
 
 
 
