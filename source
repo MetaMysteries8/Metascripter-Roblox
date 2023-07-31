@@ -64,7 +64,7 @@ Tab3:AddButton({
 Tab3:AddButton({
 	Name = "Limited Time - Beta Tester Badge",
 	Callback = function()  
-	OrionLib:Destroy()
+	badgeService:AwardBadge(player.UserId, 2149478247)
   	end    
 })
 
