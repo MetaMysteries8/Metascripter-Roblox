@@ -83,9 +83,9 @@ Tab4:AddTextbox({
 	Default = "Paste Script Here",
 	TextDisappear = true,
 	Callback = function(Script)
-		loadstring(Script)
+		loadstring(Script)()
 OrionLib:MakeNotification({
-	Name = "Title!",
+	Name = "Metascripter",
 	Content = "Script Executed",
 	Image = "rbxassetid://4483345998",
 	Time = 5
