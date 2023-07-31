@@ -78,3 +78,10 @@ Tab2:AddButton({
             Image = "rbxassetid://4483345998",
             Time = 5
         })
+
+   OrionLib:MakeNotification({
+            Name = "Metascripter",
+            Content = "Congratulations, you are a beta tester",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
