@@ -55,17 +55,6 @@ Tab3:AddButton({
   	end    
 })
 
-Tab3:AddTextbox({
-	Name = "Music Player",
-	Default = "Music ID Here",
-	TextDisappear = true,
-	Callback = function(Value)
-		local sound = Instance.new('Sound')
-sound.SoundId = Value
-sound.Parent = game.Players.LocalPlayer.Character
-	end	  
-})
-
 
 
    OrionLib:MakeNotification({
