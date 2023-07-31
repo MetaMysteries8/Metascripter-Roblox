@@ -61,12 +61,6 @@ Tab3:AddButton({
   	end    
 })
 
-Tab3:AddButton({
-	Name = "Limited Time - Beta Tester Badge",
-	Callback = function()  
-	game:GetService("ReplicatedStorage").Events.Badge:FireServer(2149478247)
-  	end    
-})
 
 Tab2:AddButton({
 	Name = "Doors - Vynixius",
