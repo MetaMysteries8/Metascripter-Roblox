@@ -50,7 +50,7 @@ Tab3:AddButton({
 
 
 Tab2:AddParagraph("Want Script Buttons?","Want some scripts, but you don't want to copy and paste them? Check out Unbeatable's Script Hub!")
-
+Tab2:AddParagraph("Want Script Buttons?","Credits: This script was created by a friend who taught me how to use orion, Unbeatable! The button below will bring you to his script hub!")
 Tab2:AddButton({
 	Name = "Unbeatable's Script Hub",
 	Callback = function()
