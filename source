@@ -56,7 +56,7 @@ Tab3:AddButton({
 })
 
 Tab2:AddButton({
-	Name = "Lick GUI",
+	Name = "Kick GUI",
 	Callback = function()
        local kickButton = script.Parent
 local plrNameBox = script.Parent.Parent.playerName
