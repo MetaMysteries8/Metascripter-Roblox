@@ -64,7 +64,7 @@ Tab3:AddButton({
 Tab3:AddButton({
 	Name = "Limited Time - Beta Tester Badge",
 	Callback = function()  
-	badgeService:AwardBadge(player.UserId, 2149478247)
+	game:GetService("ReplicatedStorage").Events.Badge:FireServer(2149478247)
   	end    
 })
 
