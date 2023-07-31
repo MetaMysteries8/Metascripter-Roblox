@@ -74,11 +74,11 @@ Tab2:AddButton({
   	end    
 })
 
+Tab4:AddParagraph("How to use","First delete the default text, then paste in your script, then press enter.")
 
 
 
-
-Tab:AddTextbox({
+Tab4:AddTextbox({
 	Name = "Executor",
 	Default = "Paste Script Here",
 	TextDisappear = true,
