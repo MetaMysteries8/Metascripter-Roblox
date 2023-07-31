@@ -75,6 +75,19 @@ Tab2:AddButton({
   	end    
 })
 
+Tab2:AddButton({
+	Name = "BurpHax",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Fizzgiver/BurpHax/main/BurpHax'))()
+   OrionLib:MakeNotification({
+            Name = "Metascripter",
+            Content = "BurpHax for Burping Simulator Activated, enjoy!",
+            Image = "rbxassetid://4483345998",
+            Time = 5
+        })
+  	end    
+})
+
 Tab4:AddParagraph("How to use","First delete the default text, then paste in your script, then press enter. Heads up, the text might glitch if the script is long, but the script should still work normally")
 
 
