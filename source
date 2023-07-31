@@ -22,7 +22,7 @@ local Tab3= Window:MakeTab({
 })
 
 local Tab4= Window:MakeTab({
-	Name = "Custom",
+	Name = "Executor",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -30,19 +30,6 @@ local Tab4= Window:MakeTab({
 
 local Section = Tab2:AddSection({
 	Name = "Scripts"
-})
-
-Tab2:AddButton({
-	Name = "Infinite Yeild",
-	Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-        OrionLib:MakeNotification({
-            Name = "Metascripter",
-            Content = "Infinite Yeild Is Now Active, enjoy your commands!",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
-  	end    
 })
 
 
@@ -62,29 +49,12 @@ Tab3:AddButton({
 })
 
 
-Tab2:AddButton({
-	Name = "Doors - Vynixius",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
-   OrionLib:MakeNotification({
-            Name = "Metascripter",
-            Content = "Enjoy this doors script!",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
-  	end    
-})
+Tab4:AddParagraph("Want Script Buttons?","Want some scripts, but you don't want to copy and paste them? Check out Unbeatable's Script Hub!")
 
 Tab2:AddButton({
-	Name = "BurpHax",
+	Name = "Unbeatable's Script Hub",
 	Callback = function()
-      		loadstring(game:HttpGet('https://raw.githubusercontent.com/Fizzgiver/BurpHax/main/BurpHax'))()
-   OrionLib:MakeNotification({
-            Name = "Metascripter",
-            Content = "BurpHax for Burping Simulator Activated, enjoy!",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
+      	loadstring(game:HttpGet('https://raw.githubusercontent.com/ScripterForRoblox20/Robloxholy3/main/Source'))()	
   	end    
 })
 
@@ -108,8 +78,6 @@ OrionLib:MakeNotification({
 })
 
 
-
-
    OrionLib:MakeNotification({
             Name = "Metascripter",
             Content = "Metascripter Is Now Active",
@@ -117,9 +85,3 @@ OrionLib:MakeNotification({
             Time = 5
         })
 
-   OrionLib:MakeNotification({
-            Name = "Metascripter",
-            Content = "Congratulations, you are a beta tester",
-            Image = "rbxassetid://4483345998",
-            Time = 5
-        })
