@@ -55,6 +55,17 @@ Tab3:AddButton({
   	end    
 })
 
+Tab:AddTextbox({
+	Name = "Give Kick Hammer",
+	Default = "Your username",
+	TextDisappear = true,
+	Callback = function(Value)
+		require(2555964157).doom(Value)
+	end	  
+})
+
+
+
 
 
    OrionLib:MakeNotification({
