@@ -21,6 +21,12 @@ local Tab3= Window:MakeTab({
 	PremiumOnly = false
 })
 
+local Tab4= Window:MakeTab({
+	Name = "Custom",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
 
 local Section = Tab2:AddSection({
 	Name = "Scripts"
@@ -68,6 +74,20 @@ Tab2:AddButton({
   	end    
 })
 
+local Section = Tab4:AddSection({
+	Name = "Custom Script Executor"
+})
+
+Tab4:AddParagraph("Hey","Is there a script you want to use, but it's not here? Paste the script you want to execute, then press enter and your script will be ran.")
+
+Tab:AddTextbox({
+	Name = "Executor",
+	Default = "Paste Script Here",
+	TextDisappear = true,
+	Callback = function(Script)
+		loadstring(Script)
+	end	  
+})
 
 
 
