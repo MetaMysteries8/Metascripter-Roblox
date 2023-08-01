@@ -1,3 +1,2 @@
 # Metascripter-Roblox
-Currently under heavy construction.
-Hopfully once remade it will work very well.
+`loadstring(game:HttpGet('https://raw.githubusercontent.com/MetaMysteries8/Metascripter-Roblox/main/source'))()`
